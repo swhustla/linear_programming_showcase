@@ -248,6 +248,14 @@ traitlets = ">=5.3"
 test = ["pytest"]
 
 [[package]]
+name = "cython"
+version = "0.29.33"
+description = "The Cython compiler for writing C extensions for the Python language."
+category = "main"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[[package]]
 name = "debugpy"
 version = "1.6.6"
 description = "An implementation of the Debug Adapter Protocol for Python"
@@ -1516,7 +1524,7 @@ test = ["mypy", "pre-commit", "pytest", "pytest-asyncio", "websockets (>=10.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "b32eb3c1f311657a9d1251099511578f0c7126fcd2699b6a3a6c4b8e5953f12c"
+content-hash = "7240d26df6bc15ab27e9e32dec20e0bc94fd5c46a9c59392854de9233680339b"
 
 [metadata.files]
 absl-py = []
@@ -1540,6 +1548,7 @@ charset-normalizer = []
 click = []
 colorama = []
 comm = []
+cython = []
 debugpy = []
 decorator = []
 defusedxml = []
